@@ -180,7 +180,7 @@ public class FaceDetectActivity extends AppCompatActivity implements
      */
     private void setScreenBright() {
         int currentBright = BrightnessUtils.getScreenBrightness(this);
-        BrightnessUtils.setBrightness(this, currentBright + 100);
+        BrightnessUtils.setBrightness(this, currentBright + 50);
     }
 
     @Override

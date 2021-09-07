@@ -1,2 +1,2 @@
 rootProject.name='BaiduFaceID'
-include ':app', ':faceplatform-ui', ':faceplatform-release'
+include ':app', ':faceplatform-ui'

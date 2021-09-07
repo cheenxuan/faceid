@@ -2,6 +2,16 @@
 
 buildscript {
     ext.kotlin_version = '1.4.32'
+
+    ext {
+        // 签名信息
+        sign = [
+                storeKey     : './config/ump.jks',
+                storePassword: 'ldys@2021',
+                keyAlias     : 'ldp',
+                keyPassword  : 'ldp@2021'
+        ]
+    }
     repositories {
         google()
         jcenter()
