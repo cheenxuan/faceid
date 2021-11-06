@@ -10,7 +10,7 @@
     <application>
         <provider
             android:name="com.baidu.liantian.LiantianProvider"
-            android:authorities="com.umpay.linkageplus.liantian.ac.provider"
+            android:authorities="${applicationId}.liantian.ac.provider"
             android:exported="false"
             android:grantUriPermissions="true" />
 
