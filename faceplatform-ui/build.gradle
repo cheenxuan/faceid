@@ -3,6 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.cheenxuan'
 android {
     compileSdkVersion 28
+    ndkVersion "21.1.6352462"
 
     defaultConfig {
         minSdkVersion 15
