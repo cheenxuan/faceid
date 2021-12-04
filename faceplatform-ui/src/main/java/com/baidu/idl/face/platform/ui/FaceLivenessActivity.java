@@ -468,6 +468,9 @@ public class FaceLivenessActivity extends AppCompatActivity implements
                     mDisplayWidth, mPreviewHight, mPreviewWidth);
             mILivenessStrategy.setLivenessStrategyConfig(
                     mFaceConfig.getLivenessTypeList(), mPreviewRect, detectRect, this);
+        }
+
+        if (mILivenessStrategy != null) {
             mILivenessStrategy.livenessStrategy(data);
         }
         
